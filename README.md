@@ -53,6 +53,10 @@ docker build -t frontend .
 docker run -p 3000:3000 frontend
 ```
 
+```bash
+# Use compose
+docker compose up --build
+```
 ## Project Structure
 
 ```
